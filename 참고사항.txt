@@ -1,0 +1,45 @@
+웹사이트 접속
+일반적으로 도메인으로 접속하지만
+실제적으로 ip주소를 통해 서버가 동작하는 상태에서 작동하는 것이다.
+
+자바 스펙
+jdk 11
+
+자바 개발 철학
+1. 객체 지향 방법론 사용
+
+2. 같은 프로그램이 여러 운영체제에서 실행될 수 있도록 해야 한다.
+
+자바 설치
+1. jdk 설치 
+2. pc 속성 -> 고급 시스템 설정 ->환경 변수 -> 시스템 변수 JAVA_HOME = C:\Program Files\Java\jdk-11.0.13(파일 경로에 따라 다르다.)
+3. 시스템 변수 PATH -> %JAVA_HOME%\bin추가하기
+4. javac --version => 자바 컴파일러로 버전이 나오면 성공
+
+남승균 강사님 자바 깃허브 = https://github.com/namsk/bl-java
+https://github.com/namsk/POSCOICT_JAVAEX
+
+윈도우로 자바 설치 후 반드시 해야할 것 = window->preference->encoding 검색 후 workspace utf-8로 변환
+utf-8 =>전세계 사용 문자 코드
+프로젝트 우클릭 -> show in -> system exploer하면 파일 위치를 확인하고 열어줌
+
+변수 명명규칙
+1. PascalCase => 1단어 + 1단어 --->각 단어 첫글자는 대문자로 ex)MyResult
+2. camalCase => 소문자로 작성하되 단어가 시작되는 부분은 대문자로 ex) myResult
+3. snakecase =>  전부 소문자로 작성하되 단어들을 _로 연결 ex) my_result
+4. kabarcase =>  전부 소문자로 작성하되 단어들을 -로 연결 ex) my-result
+
+디버깅 작업
+벌레 모양 클릭 후 step over, step in을 사용해 흐름을 파악
+작업 완료되면 resume 클릭 후 open perspective -> java를 클릭해 원래대로 돌아간다.
+
+김정현 강사님 : unicodaum@hanmail.net
+메일 제목 : JAVA 전문가과정(포스코ICT)-하진수
+수업 카페
+https://mybox.naver.com/share/list?shareKey=udoBw8dJx4fxei8fgILc1XHsmBxgx30SFQUDehc2plMF&resourceKey=dW5pY298MzQ3MjQ2NzI0NDk4MTM2NTgwNHxEfDEwNTgwMjM1&time=1639528796208
+1215
+
+msyql 설치
+custom->mysqlServer(sever 8.0.17), Application(workBench 8.0.17),Connector(Connect J 8.0.17),Documentation(Samples and Examples)
+->
+
