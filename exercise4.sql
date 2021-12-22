@@ -285,6 +285,11 @@ right join dept
 on emp.deptno = dept.deptno) as new_table
 order by new_table.부서명;
 
+select concat(emp.ename,'(',locations.city,')') as information from emp
+						join dept on emp.deptno = dept.deptno
+						join locations on dept.loc_code = locations.loc_code
+						where ename like '%A%';
+
 
 
 
